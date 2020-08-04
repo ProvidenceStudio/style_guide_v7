@@ -1,0 +1,8 @@
+@mixin image($maxh: null, $maxw: null, $martop: null) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: $martop;
+    max-width: $maxw;
+    max-height: $maxh;  
+}

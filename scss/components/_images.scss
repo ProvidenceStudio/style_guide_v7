@@ -1,0 +1,17 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img-avatar {
+   @include image($maxh: 100%, $maxw: 100%, $martop: 10px);
+  }
+  
+  .img-frame {
+    @include image($maxw: 100%, $martop: 10px);
+    padding: 13px;
+    border: 1px solid #ccc;
+  }
+  
+  .img-logo {
+    @include image; 
+  }
