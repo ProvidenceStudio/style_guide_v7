@@ -2,25 +2,9 @@
 /*              Media Queries                    */
 /* ============================================= */
 @media (min-width: $brk-min) {
-
-    .container {
-      max-width: 1400px;
-      @include center; 
-    }
     
     .centered {
       @include center;
-    }
-    
-    .row {
-      flex-direction: row;
-    }
-    
-    [class^=col] {
-      display: flex;
-      justify-content: center;
-      margin-top: 0;
-      align-items: center;
     }
     
     [class^=col] + [class^=col] {
