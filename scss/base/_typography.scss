@@ -21,18 +21,21 @@
   /*              Typography                       */
   /* ============================================= */
   
-  .headline-primary {
-    color: $color-primary;
-    margin-left: 10px;
+  .headline {
+    &-primary {
+      color: $color-primary;
+      margin-left: 10px;
+    }
+    
+    &-secondary {
+      font-weight: 300;
+      color: $color-secondary;
+    }
   }
   
-  .headline-secondary {
-    font-weight: 300;
-    color: $color-secondary;
-  }
   
   .link {
-    color: $color-link;
+    color: $color-accent;
     font-weight: 700;
   }
   

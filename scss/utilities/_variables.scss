@@ -2,13 +2,29 @@
 /*              Variables                        */
 /* ============================================= */
 
-// Colors 
+// Descriptive Colors
 
-$color-primary: #58e1c1; 
-$color-secondary: #777;
-$color-link: #51ddfc;
+$white: #fff; 
+$turquoise: #58e1c1; 
+$gray: #777;
+$light-gray: #ccc;
+$malibu-blue: #51ddfc;
+$dark-pink: #e4757a;
+$lilac: #927bc1;
+$green: #63cc82;
+$fire-red: #fd7856;
 
-$color-error: #e4757a;
-$color-info: #927bc1;
-$color-success: #63cc82;
-$color-warning: #fd7856;
+// Functional Colors 
+
+$color-primary: $turquoise; 
+$color-secondary: $gray;
+$color-accent: $malibu-blue;
+
+$color-error: $dark-pink;
+$color-info: $lilac;
+$color-success: $green;
+$color-warning: $fire-red;
+
+// Media Query Breakpoint
+
+$brk-min: 768px;
