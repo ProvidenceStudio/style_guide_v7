@@ -5,27 +5,51 @@
 .btn {
     @include button;
 
+    &.default {
+      background-color: $color-accent;
+      &:hover {
+        @include button-transition; 
+        background-color: lighten($color-accent, 10%)
+      }
+    }
+
+    &.error {
+      background-color: $color-error;
+      &:hover {
+        @include button-transition; 
+        background-color: lighten($color-error, 10%)
+      }
+    }
+    
+    &.info {
+      background-color: $color-info;
+      &:hover {
+        @include button-transition; 
+        background-color: lighten($color-info, 10%)
+      }
+    }
+    
+    &.success {
+      background-color: $color-success;
+      &:hover {
+        @include button-transition; 
+        background-color: lighten($color-success, 10%)
+      }
+    }
+    
+    &.warning {
+      background-color: $color-warning;
+      &:hover {
+        @include button-transition; 
+        background-color: lighten($color-warning, 10%)
+      }
+    }
+
     @media (min-width: $brk-min) {
       padding: 10px 30px;
     }
   }
   
-  .default {
-    background-color: $color-accent;
-  }
   
-  .error {
-    background-color: $color-error;
-  }
   
-  .info {
-    background-color: $color-info;
-  }
   
-  .success {
-    background-color: $color-success;
-  }
-  
-  .warning {
-    background-color: $color-warning;
-  }
